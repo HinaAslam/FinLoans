@@ -1,0 +1,123 @@
+body{
+	 font-family: Verdana, sans-serif;
+	 color: white;
+}
+.logo{
+	width:140px; 
+	margin-left: 100px;
+	margin-top: 30px;
+	display: inline-block;
+}
+        /* Navigation Bar */
+.topnav {
+  overflow: hidden;
+  border-radius:25px;
+  width: 75%;
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover 
+{
+  background-color: skyblue;
+  border-radius: 10px;
+}
+.phone{
+  width:30px; 
+  margin: 0px;
+  padding-left: 100px;
+  margin-top: 8px;
+  display: inline-block;
+  color: #00FFFF;
+}
+.ApplyforLoan{
+  border-radius: 5px;
+  padding: 10px;
+  width: 15%;
+  text-align: center;
+  color: #00FFFF;
+  border-color: #00FFFF;
+  background-color: unset;
+  text-decoration: none;
+  margin-top: 8px;
+  margin-left: 10px;
+  display: inline-block;
+  border-width: 0.2px;
+}
+.back{
+   background-image: url("./images/Banner.png");
+   height: 800px;
+   width: 100%;
+}
+.TextInBackgroundImage{
+	font-size: 50px;
+	padding-left: 120px;
+	padding-top: 200px;
+	display: inline-block;
+}
+.tableTest{
+	text-align: center;
+	 font-family: Verdana, sans-serif;
+}
+ .ContactForm {
+  width: 30%;
+  height: 60%;
+  padding: 0px;
+  padding-top: -80px; 
+  position: relative;
+  margin-left: 150px;
+  border-style: solid;
+  color: white;
+  display: inline-block;
+  background-color: white;   
+}
+.ContactFormHeading{
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+.ContactFormStatments{
+  color: #B1B1B1; 
+  font-family: Garamond, serif;
+  font-size: 20px;
+  text-align: center;
+}
+.DropDown{
+  border-radius: 5px;
+  padding: 12px;
+  width: 90%;
+  color: #B1B1B1;
+  border-color: #B1B1B1;
+  background-color: unset;
+  text-decoration: none;
+  margin-top: 8px;
+  margin: 15px;
+  display: inline-block;
+  text-align: left;
+}
+.FormSubmitButton1{
+  border-radius: 25px;
+	width: 70%;
+  background-color: #00FFFF;
+  color: white;
+  border-color: #00FFFF;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  margin-left: 50px;
+  text-decoration: none;
+}

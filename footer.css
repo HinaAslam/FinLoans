@@ -1,0 +1,77 @@
+.flex-containerFooter {
+  display: flex;
+  background-color: none;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.flex-containerFooter > div {
+  background-color: none;
+  width: 100px;
+  margin: 10px;
+  text-align: left;
+  line-height: 22px;
+  font-size: 30px;
+}
+.FooterTextSmall{
+	font-size: 15px;
+	color: black;
+	margin-left: 60px;
+	color: #B1B1B1;
+	font-weight: normal;
+	text-align: left;
+	padding: 0px;
+}
+.h3Footer{
+	font-size: 20px;
+	color: black;
+	font-weight: normal;
+	margin-top: 35px;
+	margin-left: 25px;
+	margin-bottom: -50px;
+}
+.FooterBulletPoints
+{
+	font-size: 13px;
+	color: black;
+	margin-left: 40px;
+	color: #B1B1B1;
+	font-weight: normal;
+	text-align: left;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.FooterBox {
+  border-radius: 5px;
+  background-color: none;
+  border-color: #ABB0B2;
+  padding: 1px;
+  margin: 5px;
+  margin-top: 40px;
+  border-style: solid;
+  border-width: 1px;
+}
+.ContinueButton{
+ border-radius: 5px;
+ padding: 10px;
+	width: 35%;
+    text-align: center;
+    background-color: #00FFFF;
+    color: white;
+    border:none;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 85px;
+}
+.FooterText{
+  font-size: 13px;
+  color: black;
+  margin-left: 20px;
+  color: #B1B1B1;
+  font-weight: normal;
+  text-align: left;
+  padding-top: 4px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,245 @@
+.HrLines{
+	width: 5%;
+	margin: auto;
+	color: skyblue;
+	height: 2px;
+	background-color: skyblue;
+	border: none;
+	}  
+.HrText{
+	font-size: 30px;
+	color: black;
+	margin: auto;
+	font-weight: normal;
+}
+.HrTextSmall{
+	font-size: 15px;
+	color: black;
+	margin: auto;
+	color: #B1B1B1;
+	font-weight: normal;
+}
+.flex-container {
+  display: flex;
+  background-color: unset;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 600px) {
+  .flex-container {
+    flex-direction: row;
+  }
+}
+.flex-container > div {
+  background-image: linear-gradient(#199FCC, #0D4C61 );
+  padding-top: 50px;
+  width: 100%;
+  margin: 30px;
+  line-height: auto;
+  font-size: auto;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+}
+h6{
+	font-size: 15px;
+	color: white;
+	padding: 0px;
+	text-align: center;
+}
+h5{
+	color: skyblue;
+	font-size: 18px;
+	margin: auto;
+	text-align: center;
+}
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: skyblue;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  line-height: 20px;
+
+}
+.FormSubmitButton {
+    border-radius: 5px;
+	padding: 10px;
+	width: 60%;
+    text-align: center;
+    background-color: #00FFFF;
+    color: white;
+    border-color: #00FFFF;
+    margin-top: 35px;
+    margin-bottom: 85px;
+    margin-left: 70px;
+    text-decoration: none;
+
+}
+.flex-containerImageTest {
+  display: flex;
+  justify-content: center;
+  background-color: none;
+}
+.flex-containerImageTest > div {
+  padding-top: 150px;
+  margin: 40px;
+
+}
+.text{
+	font-size: 40px;
+	color: black;
+	padding-left: 0px;
+	padding-top: 50px;
+}
+.Statments{
+	font-size: 15px;
+	color: #808080;
+}
+.licolor{
+	color: black;
+	font-size: 15px;
+	padding-bottom: 3px;
+	padding-top: 10px;
+}
+.AboutUsButton{
+ 	border-radius: 5px;
+	padding: 15px;
+	width: 25%;
+  text-align: center;
+  background-color: #00FFFF;
+  color: white;
+  border:none;
+  text-decoration: none;
+  margin-top: 35px;
+  margin-bottom: 85px;
+  margin-left: 25px;
+}
+.containerBackground{
+  	justify-content: center;
+  	background-color: #F2F3F4;
+}
+.flex-containerCircle{
+	display: flex;
+  justify-content: center;
+ 	background-color: none;
+ 	justify-content: space-around;
+}
+.Circle{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-right: 30px;
+    height: 60px;
+  	width: 60px;
+  	background-color: #DCEDF3;
+  	border: none;
+  	border-radius: 50%;
+  	display: inline-block;
+  	color: #28A5CF ;
+  	font-size: 20px;
+}
+.Circleright{
+	margin-top: 70px;
+	margin-bottom: 0px;
+	margin-right: 30px;
+    height: 50px;
+  	width: 50px;
+  	background-color: #DCEDF3;
+  	border: none;
+  	border-radius: 50%;
+  	display: inline-block;
+  	color: #28A5CF ;
+}
+.Circleleft{
+	margin-top: 6px;
+	margin-bottom: 0px;
+	margin-right: 30px;
+    height: 50px;
+  	width: 50px;
+  	background-color: #DCEDF3;
+  	border: none;
+  	border-radius: 50%;
+  	display: inline-block;
+  	color: #28A5CF ;
+}
+.CircleText{
+	font-size: 25px;
+	color: black;
+}
+.CircleTextStatments{
+	font-size: 18px;
+	color: #B1B1B1;
+	padding-bottom: 60px;
+	font-weight: normal;
+
+}
+.flex-containerImageText {
+  display: flex;
+  align-items: stretch;
+  background-color: none;
+}
+
+.flex-containerImageText > div {
+  background-color: none;
+  color: white;
+  margin: 10px;
+  line-height: 35px;
+  font-size: 30px;
+}
+.flex-containerForImages {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.flex-containerForImages > div {
+  background-color: none;
+  width: 100px;
+  margin: 50px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-BackImage {
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/calculator-bg.jpg");
+  height: 300px;
+  width: 80%;
+ margin-left: 150px;
+  text-align: center;
+}
+
+.flex-BackImage > div {
+  background-color: none;
+  width: auto;
+  margin: auto;
+  text-align: left;
+  line-height: 45px;
+  font-size: 30px;
+  padding: 10px;
+  margin-left: 40px;
+}
+.ApplyNowLast{
+ 	border-radius: 5px;
+	padding: 15px;
+	width: 35%;
+    text-align: center;
+    background-color: #00FFFF;
+    color: white;
+    border:none;
+    text-decoration: none;
+    margin-top: 95px;
+    margin-bottom: 85px;
+    margin-left: 25px;
+}
